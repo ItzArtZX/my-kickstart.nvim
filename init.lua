@@ -876,6 +876,10 @@ require('lazy').setup({
     },
   },
 
+  {
+    'EdenEast/nightfox.nvim'
+  },
+
   { -- You can easily change to a different colorscheme.
     -- Change the name of the colorscheme plugin below, and then
     -- change the command in the config to whatever the name of that colorscheme is.
@@ -1014,3 +1018,5 @@ require('lazy').setup({
 
 -- The line beneath this is called `modeline`. See `:help modeline`
 -- vim: ts=2 sts=2 sw=2 et
+--
+vim.cmd("colorscheme nordfox")
